@@ -1,0 +1,12 @@
+           int temp;
+           if(input1<10&&input1>-10)
+           {
+               return -1;
+           }
+            input1/=10;
+            temp=input1%10;
+            int a = Math.abs(temp);
+            return a;
+        
+    }
+}
