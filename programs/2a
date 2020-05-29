@@ -1,0 +1,18 @@
+		if(input1>0&&input2>0)
+		{
+			if(input2%input1==0)
+			{
+				return 2;
+			}
+			else
+			{
+				return 1;
+			}
+		}
+		else
+		{
+			return 3;
+		}
+		
+	}
+}
