@@ -1,0 +1,23 @@
+		int ct=0,i=1,j=1;
+		int n=input1;
+    int arr[] = new int[n];
+    for(int k=1;k<=n;k++)
+    { 
+            j=1;  
+            ct=0;  
+         while(j<=i)  
+        {  
+            if(i%j==0)  
+            ct++;  
+            j++;   
+        }  
+        if(ct==2)  
+        {  
+            arr[k]=i;  
+        }  
+    i++;  
+    }
+	int m = arr[n];
+	return m;  		
+	}
+}
